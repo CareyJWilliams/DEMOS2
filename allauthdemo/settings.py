@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['web.server.com']
 
 
 # Application definition
@@ -54,7 +54,7 @@ INSTALLED_APPS = (
 
     'allauthdemo.polls',
 
-    'kombu.transport.django', # Celery
+#    'kombu.transport.django', # Celery
     'djcelery'
 
 )
